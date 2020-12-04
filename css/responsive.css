@@ -1,0 +1,52 @@
+/* 577px - 768px for tablet */
+@media (min-width: 577px) and (max-width: 768px) {
+  .content__menu-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 32px 8px;
+  }      
+}
+/* 0 - 576px for mobile devices*/
+@media (max-width:576px){
+    .header__bag-icon, .content__nav{
+        display: none;
+    }
+    .content__menu-item {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        gap: 0;
+      }    
+      .content__menu-title{
+          text-align: center;
+          margin-top: 56px;
+      }
+      .dish-info__details {
+        display: flex;
+        flex-direction: column;
+        margin-top: 54px;
+      }
+      .content__dish-info{
+          top: 43%;
+          left: 0;
+      }
+      .dish-info__price{
+          margin-bottom: 16px;
+      }
+      .footer{
+          height: 769px;
+      }
+      .footer__content {
+        display: flex;
+        flex-direction: column;
+      }
+      .footer__copyright {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+      }
+      .footer__copyright p {
+          margin-bottom: 24px;
+      }
+}
