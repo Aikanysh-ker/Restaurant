@@ -26,9 +26,9 @@ button {
   padding: 8px 15.5px;
   border-radius: 2px;
 }
-.btn:hover{
-  background: #57AD56;
-  color: #FFFFFF;
+.btn:hover {
+  background: #57ad56;
+  color: #ffffff;
   border: none;
   cursor: pointer;
 }
@@ -52,8 +52,9 @@ button {
   float: right;
   margin-top: 8px;
 }
-.header__bag-icon:hover{
-  filter: invert(61%) sepia(16%) saturate(1297%) hue-rotate(71deg) brightness(93%) contrast(96%);
+.header__bag-icon:hover {
+  filter: invert(61%) sepia(16%) saturate(1297%) hue-rotate(71deg)
+    brightness(93%) contrast(96%);
 }
 /* main */
 /* main-dish section */
@@ -211,7 +212,7 @@ button {
 .footer__list {
   list-style-type: none;
 }
-.footer__list li{
+.footer__list li {
   margin-bottom: 23px;
 }
 .footer__list-item {
