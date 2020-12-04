@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="#"
+          ><img class="header__logo" src="images/black-logo.svg" alt="Logo"
+        /></a>
+        <div class="header__right">
+          <button class="btn header__signin-btn">Sign In</button>
+          <button class="btn header__reg-btn">Register</button>
+          <a href="#"><i class="header__bag-icon"></i></a>
+        </div>
+      </div>
+    </header>
+    <main class="content">
+      <section class="content__main-dish">
+        <div class="content__background">
+          <div class="dish-info content__dish-info">
+            <h2 class="dish-info__title">Трактир «Пушкин»</h2>
+            <div class="dish-info__details">
+              <span class="dish-info__price">₽₽₽ • Европейская</span>
+              <span class="dish-info__time">40 - 50 Min</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="content__nav">
+        <nav class="container content__nav-menu">
+          <ul class="content__nav-list">
+            <li><a class="content__nav-item" href="#">Закуски</a></li>
+            <li><a class="content__nav-item" href="#">Салаты</a></li>
+            <li><a class="content__nav-item" href="#">Супы</a></li>
+            <li><a class="content__nav-item" href="#">Горячие блюда</a></li>
+            <li><a class="content__nav-item" href="#">Гарниры</a></li>
+            <li><a class="content__nav-item" href="#">Десерты</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="container content__menu">
+        <h2 class="content__menu-title">Закуски</h2>
+        <div class="content__menu-item">
+          <div class="menu-item content__menu-item1">
+            <div class="content__menu-description">
+              <h3 class="content__dish-name">Сельдь на бородинском хлебе</h3>
+              <p class="content__dish-ingredients">С яйцом и огурцом</p>
+              <p class="content__dish-price">240 ₽</p>
+            </div>
+            <img src="images/menu1.png" alt="Photo of the dish" />
+          </div>
+          <div class="menu-item content__menu-item2">
+            <div class="content__menu-description">
+              <h3 class="content__dish-name">Соленья ассорти</h3>
+              <p class="content__dish-price">320 ₽</p>
+            </div>
+            <img src="images/menu2.png" alt="Photo of the dish" />
+          </div>
+          <div class="menu-item content__menu-item3">
+            <div class="content__menu-description">
+              <h3 class="content__dish-name">Грибы маринованные</h3>
+              <p class="content__dish-price">300 ₽</p>
+            </div>
+            <img src="images/menu3.png" alt="Photo of the dish" />
+          </div>
+          <div class="menu-item content__menu-item4">
+            <div class="content__menu-description">
+              <h3 class="content__dish-name">Сало домашнее с горчицей</h3>
+              <p class="content__dish-price">320 ₽</p>
+            </div>
+            <img src="images/menu4.png" alt="Photo of the dish" />
+          </div>
+          <div class="menu-item content__menu-item5">
+            <div class="content__menu-description">
+              <h3 class="content__dish-name">Малосольная семга</h3>
+              <p class="content__dish-price">390 ₽</p>
+            </div>
+            <img src="images/menu5.png" alt="Photo of the dish" />
+          </div>
+          <div class="menu-item content__menu-item6">
+            <div class="content__menu-description">
+              <h3 class="content__dish-name">Язык говяжий с хреном</h3>
+              <p class="content__dish-price">350 ₽</p>
+            </div>
+            <img src="images/menu6.png" alt="Photo of the dish" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__logo">
+          <a href="#"
+            ><img class="header__logo" src="images/white-logo.svg" alt="Logo"
+          /></a>
+        </div>
+        <hr>
+        <section class="footer__content container">
+          <div class="footer__content-left">
+            <div class="footer__custom-select">
+              <select class="footer__select-lang" name="dropdown" id="select">
+                <option value="English">English</option>
+                <option value="Russian">Russian</option>
+                <option value="Kyrgyz">Kyrgyz</option>
+              </select>
+            </div>
+            <p class="footer__hashtag">
+              <span class="footer__hash">#</span> UberEats
+            </p>
+            <a href="#"><i class="social-icon footer__social-fb"></i></a>
+            <a href="#"><i class="social-icon footer__social-twitter"></i></a>
+            <a href="#"><i class="social-icon footer__social-insta"></i></a>
+          </div>
+          <div class="footer__content-center">
+            <ul class="footer__list">
+              <li><a class="footer__list-item" href="#">About UberEats</a></li>
+              <li>
+                <a class="footer__list-item" href="#"
+                  >Become a Delivery Partner</a
+                >
+              </li>
+              <li>
+                <a class="footer__list-item" href="#"
+                  >Become a Restaurant Partner</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer__content-right">
+            <ul class="footer__list">
+              <li><a class="footer__list-item" href="#">See all cities</a></li>
+              <li><a class="footer__list-item" href="#">Pricing</a></li>
+              <li><a class="footer__list-item" href="#">Help</a></li>
+              <li><a class="footer__list-item" href="#">FAQs</a></li>
+            </ul>
+          </div>
+        </section>
+        <hr>
+        <section class="footer__copyright">
+          <p class="footer__copyrigh-link">&copy;2017 Uber Technologies Inc.</p>
+          <p><a class="footer__copyrigh-link" href="#">Privacy</a></p>
+          <p><a class="footer__copyrigh-link" href="#">Terms</a></p>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
