@@ -129,17 +129,18 @@ button {
   font-weight: 400;
   margin-bottom: 32px;
 }
-.content__menu-item {
+.content__menu-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
   gap: 49px 16px;
 }
-.menu-item {
+.content__menu-item {
   display: flex;
   justify-content: space-between;
   border: 1px solid rgba(117, 117, 117, 0.2);
   border-radius: 2px;
+  
 }
 .content__menu-description {
   padding-top: 16px;
@@ -147,6 +148,9 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.content__menu-item:hover {
+  background: rgba(204, 204, 204, 0.2);
 }
 .content__dish-name {
   font-size: 16px;
@@ -223,11 +227,22 @@ button {
   color: #ffffff;
 }
 .footer__custom-select {
-  background: url(../images/lang-icon.svg);
-  background-repeat: no-repeat;
-  background-size: 15.72px;
-  display: inline-block;
+  position: relative;
+  width: 227px;
+  height: 40px;
   margin-bottom: 33px;
+}
+.footer__custom-select::before {
+  content: "";
+  background-image: url(../images/lang-icon.svg);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  background-size: contain;
+  top: 12px;
+  display: block;
+  left: 16px;
 }
 .footer__select-lang {
   background: #3b3b3b;
@@ -238,6 +253,9 @@ button {
   text-transform: uppercase;
   padding-right: 103px;
   border: none;
+  width: 227px;
+  height: 40px;
+  padding-left: 40px;
 }
 .footer__copyright {
   display: flex;

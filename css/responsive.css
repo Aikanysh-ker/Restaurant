@@ -1,19 +1,25 @@
 /* 577px - 768px for tablet */
 @media (min-width: 577px) and (max-width: 768px) {
-  .content__menu-item {
+  .content__menu-cards {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
     gap: 32px 8px;
   }
+  .container{
+   padding: 0 8px;
+  }
 }
 /* 0 - 576px for mobile devices*/
 @media (max-width: 576px) {
+  .container{
+    padding: 0 8px;
+   }
   .header__bag-icon,
   .content__nav {
     display: none;
   }
-  .content__menu-item {
+  .content__menu-cards {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
