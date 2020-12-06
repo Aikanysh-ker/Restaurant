@@ -108,7 +108,7 @@ button {
 /* nav section */
 .content__nav-menu {
   height: 80px;
-  padding-top: 32px;
+  margin-top: 32px;
   border-bottom: 1px solid rgba(117, 117, 117, 0.2);
   margin-bottom: 56px;
 }
@@ -151,6 +151,7 @@ button {
 }
 .content__menu-item:hover {
   background: rgba(204, 204, 204, 0.2);
+  cursor: pointer;
 }
 .content__dish-name {
   font-size: 16px;
